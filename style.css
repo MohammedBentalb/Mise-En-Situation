@@ -4,3 +4,56 @@
     box-sizing: border-box;
 }
 
+max-container{
+    max-width: 1440px;
+}
+
+.cont-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgb(182, 178, 178);
+    padding-inline: 3rem;
+    padding-block: 1.5rem;
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+.nav li a{
+    color: gray;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.nav li:first-child a {
+    color: black;
+}
+
+.log-btns{
+    display: flex;
+    gap: 2rem;
+}
+
+.log-btns div{
+    width: 24px;
+    height: 24px;
+    background-color: rgb(22, 22, 22);
+}
+
+.log-btns button{
+    background-color: rgb(22, 22, 22);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding-inline: 1rem;
+    padding-block: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
